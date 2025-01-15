@@ -24,10 +24,10 @@ function AddTransition() {
             <form className="my-2" onSubmit={onSubmit}>
                 <div className="my-2">
                     <label className="font-semibold text-white" for="category">Category</label> <br />
-                    <input className=" text-white bg-transparent w-full my-1 py-1 px-2 rounded-lg border border-slate-600 focus:outline-none " value={text} onChange={(event) => setText(event.target.value)} id="category" type="text" placeholder="Enter category" />
+                    <input className="text-md text-white bg-transparent w-full my-1 py-1 px-2 rounded-lg border border-slate-600 focus:outline-none " value={text} onChange={(event) => setText(event.target.value)} id="category" type="text" placeholder="Enter category" />
                                 
                     <label className="font-semibold text-white" for="amount">Amount</label>
-                    <input className=" text-white bg-transparent w-full my-1 py-1 px-2 rounded-lg border border-slate-600 focus:outline-none " value={amount} onChange={(event) => setAmount(event.target.value)} id="amount" type="text" placeholder="Enter amount -> ( Income ) or ( -Expense) " />
+                    <input className=" text-md text-white bg-transparent w-full my-1 py-1 px-2 rounded-lg border border-slate-600 focus:outline-none " value={amount} onChange={(event) => setAmount(event.target.value)} id="amount" type="text" placeholder="Enter amount -> ( Income ) or ( -Expense) " />
                 </div>
                 <button type="submit" className=" font-bold my-1 rounded-lg w-full bg-white text-black  py-1 px-2">Add Transaction</button>
             </form>
