@@ -1,4 +1,4 @@
-## Nike Clone
+## Expense Tracker
 🔗View Links: https://ijaihari.github.io/expense-tracker/
 
 ## ⚙️ Tech Stack
